@@ -21,6 +21,7 @@ while(curr){
 int main(){
   int arr[5] = {1,2,3,4,5};
   int size = 5;
+  // Insertion at starting
   Node *head = NULL;
   for(int i = 0; i < size; i++){
     if(head == NULL){
@@ -32,6 +33,8 @@ int main(){
     head = temp;
     }
   }
-cout << "Printing the linked list" << endl;
+cout << "Printing the linked list (insertion at start)" << endl;
 print(head);
+
+// Insetion at ending
 }
